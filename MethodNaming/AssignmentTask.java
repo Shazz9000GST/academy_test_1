@@ -11,7 +11,7 @@ public class AssignmentTask {
   /*
    * パターン2
    */
-  public void getUserMessageAndPrintItToTheConsoleWithHelloPrefixAndUserName(User user) {
+  public void greetUser(User user) {
     System.out.println("Hello, " + user.getName());
   }
 
