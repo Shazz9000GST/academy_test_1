@@ -5,8 +5,8 @@ public class VariableNaming {
     /*
      * パターン1
      */
-    int first_number = 10;
-    int Second_Number = 20;
+    int firstNumber = 10;
+    int secondNumber = 20;
 
     /*
      * パターン2
