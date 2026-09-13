@@ -17,12 +17,12 @@ public class VariableNaming {
     /*
      * パターン3
      */
-    int return = 100;
+    int c = 100;
 
-    int total_result = first_number + Second_Number;
-    int sum = a + x + return;
+    int totalResult = firstNumber + secondNumber;
+    int sum = a + b + c;
 
-    System.out.println(total_result);
+    System.out.println(totalResult);
     System.out.println(sum);
   }
 }
