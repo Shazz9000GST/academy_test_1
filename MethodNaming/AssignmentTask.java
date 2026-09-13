@@ -32,7 +32,7 @@ public class AssignmentTask {
   /*
    * パターン5: 
    */
-  public void print_user_info(User user) {
+  public void printUserName(User user) {
     System.out.println(user.getName());
   }
 
