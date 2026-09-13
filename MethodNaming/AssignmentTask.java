@@ -25,7 +25,7 @@ public class AssignmentTask {
   /*
    * パターン4
    */
-  public String userName(User user) {
+  public String getUserName(User user) {
     return user.getName();
   }
 
