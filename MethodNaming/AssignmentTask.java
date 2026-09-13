@@ -39,7 +39,7 @@ public class AssignmentTask {
   /*
    * パターン6
    */
-  public User new(String name) {
+  public User createUser(String name) {
     return new User(name);
   }
 
