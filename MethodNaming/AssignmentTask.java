@@ -46,7 +46,7 @@ public class AssignmentTask {
   /*
    * パターン7
    */
-  public boolean active(User user) {
+  public boolean isUserActive(User user) {
     return user.isActive();
   }
 
