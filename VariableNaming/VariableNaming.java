@@ -12,7 +12,7 @@ public class VariableNaming {
      * パターン2
      */
     int a = 5;
-    int x = 3;
+    int b = 3;
 
     /*
      * パターン3
