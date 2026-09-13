@@ -18,7 +18,7 @@ public class AssignmentTask {
   /*
    * パターン3
    */
-  public void process(User user) {
+  public void printUserName(User user) {
     System.out.println(user.getName());
   }
 
