@@ -19,10 +19,4 @@ public class UserListMailService {
     return result;
   }
 
-    // メール存在チェック
-  public boolean existsByEmail(String email) {
-    return userMapper.findByEmail(email) != null;
-  }
-
-
 }

@@ -18,5 +18,10 @@ public class UserService {
     return user;
   }
 
+      // メール存在チェック
+  public boolean existsByEmail(String email) {
+    return userMapper.findByEmail(email) != null;
+  }
+
 }
 
