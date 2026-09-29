@@ -4,49 +4,49 @@ public class AssignmentTask {
   /*
    * パターン1
    */
-  public void userMessage(User user) {
+  public void greetUser(User user) {
     System.out.println("Hello, " + user.getName());
   }
 
   /*
    * パターン2
    */
-  public void getUserMessageAndPrintItToTheConsoleWithHelloPrefixAndUserName(User user) {
+  public void greetUser(User user) {
     System.out.println("Hello, " + user.getName());
   }
 
   /*
    * パターン3
    */
-  public void process(User user) {
+  public void printUserName(User user) {
     System.out.println(user.getName());
   }
 
   /*
    * パターン4
    */
-  public String userName(User user) {
+  public String getUserName(User user) {
     return user.getName();
   }
 
   /*
    * パターン5: 
    */
-  public void print_user_info(User user) {
+  public void printUserName(User user) {
     System.out.println(user.getName());
   }
 
   /*
    * パターン6
    */
-  public User new(String name) {
+  public User createUser(String name) {
     return new User(name);
   }
 
   /*
    * パターン7
    */
-  public boolean active(User user) {
+  public boolean isUserActive(User user) {
     return user.isActive();
   }
 
